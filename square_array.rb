@@ -1,8 +1,10 @@
-def square_array(numbers)
+def square_array(array)
     new_array  = []
-    numbers = numbers**2
-    new_array << numbers
+    array.each do |n|
+    n=n**2
+    new_array << n
     return new_array
 end
+
 
 #return value of calling each on an array
