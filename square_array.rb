@@ -1,8 +1,7 @@
 def square_array(numbers)
-    numbers =[1,2,3,4]
-    new_array = []
-    square_array.each {|n| return n**2}
-    new_array << square_array
+    new_array  = []
+    numbers = numbers**2
+    new_array << numbers
     return new_array
 end
 
